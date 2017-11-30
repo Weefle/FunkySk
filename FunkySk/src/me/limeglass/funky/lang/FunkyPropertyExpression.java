@@ -59,7 +59,7 @@ public abstract class FunkyPropertyExpression<F, T> extends PropertyExpression<F
 		} else {
 			Funky.debugMessage(getClass().getSimpleName() + " - " + modSyntax + " (" + event.getEventName() + ")" + " Data: " + Arrays.toString(values.toArray()));
 		}
-		return "[Stocks] " + getClass().getSimpleName() + ": the " + getPropertyName() + " of " + getExpr().toString(event, debug);
+		return Funky.getNameplate() + getClass().getSimpleName() + ": the " + getPropertyName() + " of " + getExpr().toString(event, debug);
 	}
 	
 	@Override
