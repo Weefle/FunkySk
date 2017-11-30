@@ -2,7 +2,7 @@
 An addon to add full support for NoteBlockAPI
 
 All Syntax:
-```
+```yaml
 Syntax:
   Events:
     PlayerRangeStateChangeEvent:
